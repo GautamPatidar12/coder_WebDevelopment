@@ -1,0 +1,179 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0d6efd;
+    color: white;
+}
+
+header .btn {
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.images {
+    margin: 20px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+button.btn {
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+/* Hover Effect for Call-to-Action Section */
+.bg-dark:hover {
+    background-color: #212529 !important;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    /* Adjust header section */
+    header .container {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header .lead {
+        font-size: 1rem;
+    }
+
+    header .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* Adjust features section */
+    #features .container {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    /* Stack feature cards vertically */
+    .row {
+        display: block;
+    }
+
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    /* Adjust call-to-action section */
+    .bg-dark {
+        padding: 40px 20px;
+    }
+
+    .bg-dark h2 {
+        font-size: 2rem;
+    }
+
+    .bg-dark p {
+        font-size: 1rem;
+    }
+
+    .bg-dark .btn {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+
+    /* Adjust footer */
+    footer {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Further adjust for smaller screens */
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header .lead {
+        font-size: 0.9rem;
+    }
+
+    header .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .bg-dark h2 {
+        font-size: 1.8rem;
+    }
+
+    .bg-dark p {
+        font-size: 0.9rem;
+    }
+
+    .bg-dark .btn {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+    }
+}

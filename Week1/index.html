@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+
+  <!-- Link to the external CSS file -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Welcome to Our Landing Page</h1>
+      <p class="lead">Your journey to success starts here. Join us and explore new possibilities.</p>
+      <a href="#features" class="btn btn-light btn-lg">Explore Features</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Key Features</h2>
+      <div class="row">
+        <!-- Feature 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-light">
+            <img src="Icon.png" width="50" alt="Feature 1" class="images">
+            <div class="card-body">
+              <h5 class="card-title">Feature 1</h5>
+              <p class="card-text">A brief description of this amazing feature to help improve your experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-light">
+            <img src="Icon.png" width="50" alt="Feature 2" class="images">
+            <div class="card-body">
+              <h5 class="card-title">Feature 2</h5>
+              <p class="card-text">Another great feature that will make your journey even better. Explore more!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-light">
+            <img src="Icon.png" width="50" alt="Feature 3" class="images">
+            <div class="card-body">
+              <h5 class="card-title">Feature 3</h5>
+              <p class="card-text">Learn more about this key functionality designed to simplify your life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h2 class="display-4">Ready to Get Started?</h2>
+      <p class="lead">Join us today and take your experience to the next level.</p>
+      <button class="btn btn-success btn-lg" onclick="triggerAlert()">Sign Up Now</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-secondary text-white text-center py-3">
+    <p>&copy; 2025 Gautam Patidar</p>
+  </footer>
+
+  <!-- Link to the external JS file -->
+  <script src="script.js"></script>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
