@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Chat App",
+        "ProjectNum":"Project One",
+        "description":"A description of the project with key features and functionality.",
+        "link":"https://github.com/GautamPatidar12/Chat-App"
+    },
+    {
+        "id":2,
+        "name":"Movie Search App",
+        "ProjectNum":"Project Two",
+        "description":"A description of the project with key features and functionality.",
+        "link":"https://github.com/GautamPatidar12/Movie-Search-App"
+    },
+    {
+        "id":3,
+        "name":"WeatherApp",
+        "ProjectNum":"Project Three",
+        "description":"A description of the project with key features and functionality.",
+        "link":"https://github.com/GautamPatidar12/Weather-App"
+    }
+]
