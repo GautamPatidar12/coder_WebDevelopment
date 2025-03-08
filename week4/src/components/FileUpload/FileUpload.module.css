@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9900ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #aa2aff;
+}

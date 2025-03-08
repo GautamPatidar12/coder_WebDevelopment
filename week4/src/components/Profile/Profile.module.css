@@ -1,0 +1,47 @@
+/* Old and New Combined Styles for Profile Component */
+
+/* General Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Inner Box Style */
+.innerBox {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading Style */
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Details Section */
+.details {
+    margin-bottom: 20px;
+}
+
+/* Button Style */
+button {
+    background-color: #9900ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover Style */
+button:hover {
+    background-color: #7a00cc;
+}

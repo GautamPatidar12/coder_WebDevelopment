@@ -1,0 +1,28 @@
+/* Old and New Combined Styles for InputControl Component */
+
+/* Input Control Style */
+.inputControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Label Style */
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Input Field Style */
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Input Field Focus Style */
+input:focus {
+  border-color: #9900ff;
+}

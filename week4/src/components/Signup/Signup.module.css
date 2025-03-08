@@ -1,0 +1,61 @@
+/* Old and New Combined Styles for Signup Component */
+
+/* General Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Inner Box Style */
+.innerBox {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Button Style */
+button {
+  background-color: #9900ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Disabled Button Style */
+button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+/* Paragraph Style */
+p {
+  margin-top: 20px;
+}
+
+/* Error Text Style */
+.error {
+  color: red;
+}
